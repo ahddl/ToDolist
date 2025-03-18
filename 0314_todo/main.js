@@ -8,14 +8,14 @@ const eraseBtn = document.querySelector(".fa-eraser"); //지우개 버튼
 function clock() {
   let today = new Date();
 
-  const WEEKDAY = ["SUN", "MON", "TUE", "WED", "THU", "FRI", "SAT"];
+  const WEEKDAY = ["알", "월", "화", "수", "목", "금", "토"];
   let year = today.getFullYear();
   let month = today.getMonth() + 1;
   let day = today.getDate();
   let week = WEEKDAY[today.getDay()];
 
-  today_h2.innerText = `${year}년 ${month}월 ${day}일 `;
-  return `${year}년 ${month}월 ${day}일 `;
+  today_h2.innerText = `${year}년 ${month}월 ${day}일 ${week}`;
+  return `${year}년 ${month}월 ${day}일 ${week}`;
 }
 
 console.log(clock());
