@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>index</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./main.js" defer></script>
+  </head>
+  <body>
+    <section class="container">
+      <header class="header">
+        <h1>To-do List</h1>
+      </header>
+      <div class="front">
+        <h2 style="font-size: 16px" class="today">Today</h2>
+        <div class="date">
+          <i class="fa-solid fa-calendar-days"></i>
+          <h2 id="today">날짜 출력 되는 곳</h2>
+          <i class="fa-solid fa-eraser"></i>
+        </div>
+      </div>
+      <ul class="items">
+        <!-- <li class="item item_done">
+          <span>오늘의 할일 리스트1</span>
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-trash"></i>
+        </li>
+        <li class="item">
+          <span>오늘의 할일 리스트1</span>
+          <i class="fa-solid fa-check"></i>
+          <i class="fa-solid fa-trash"></i>
+        </li> -->
+      </ul>
+      <footer>
+        <div class="footer_content">
+          <input type="text" class="footer_input" />
+          <!-- <select class="priority_select" >
+            <option value="high">상</option>
+            <option value="medium">중</option>
+            <option value="low">하</option>
+          </select> -->
+          <i class="fa-solid fa-plus"></i>
+        </div>
+      </footer>
+    </section>
+  </body>
+</html>
